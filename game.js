@@ -7,6 +7,7 @@ var checkRow = (row) => {
     if (i > 0 && (text != lastFound)) {
       return '';
     }
+    
     lastFound = text;
   }
 
